@@ -68,7 +68,7 @@ public class Application {
             System.out.println("Project start date (dd/mm/yy): ");
             String secondDate = secondInput.next();
             if (null != secondDate && secondDate.trim().length() > 0) {
-                secondStartDate = dateInput.parse(secondDate);
+                secondStartDate = secondDateInput.parse(secondDate);
             }
         } catch (ParseException e) {
             e.printStackTrace();
